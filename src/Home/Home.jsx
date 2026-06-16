@@ -12,8 +12,8 @@ import {
  FaLinkedinIn,
  FaYoutube
 } from "react-icons/fa";
-import { db } from "../firebase";
-import kitchenHero from "../kitchenHero.avif";
+// import { db } from "../firebase";
+// import kitchenHero from "../kitchenHero.avif";
 import kitchen1 from "../kitchen1.avif";
 import bedroom1 from "../bedroom1.jfif";
 import living1 from "../living1.jfif";
