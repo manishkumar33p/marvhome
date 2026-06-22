@@ -1092,6 +1092,15 @@ return (
 
 </section>
 
+{selectedImage && (
+  <div
+    className="image-popup"
+    onClick={() => setSelectedImage(null)}
+  >
+    <img src={selectedImage} alt="Selected Design" />
+  </div>
+)}
+
 
 <section className="service-slider-section">
 
