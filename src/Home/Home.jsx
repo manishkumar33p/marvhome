@@ -43,7 +43,7 @@ function Home() {
 });
 
 
-const [selectedImage, setSelectedImage] = useState(null);
+const [_, setSelectedImage] = useState(null);
 const [bhk, setBhk] = useState("");
 const [estimate, setEstimate] = useState(null);
 
@@ -1499,22 +1499,22 @@ return (
 
       <div className="social-icons">
 
-        <a href="#">
+        <a href="https://www.instagram.com/marvinteriors/">
           <i className="fab fa-facebook-f"></i>
            <FaFacebookF />
         </a>
 
-        <a href="#">
+        <a href="https://www.instagram.com/marvinteriors/">
           <i className="fab fa-instagram"></i>
            <FaInstagram />
         </a>
 
-        <a href="#">
+        <a href="https://www.instagram.com/marvinteriors/">
           <i className="fab fa-linkedin-in"></i>
           <FaLinkedinIn />
         </a>
 
-        <a href="#">
+        <a href="https://www.instagram.com/marvinteriors/">
           <i className="fab fa-youtube"></i>
           <FaYoutube />
         </a>
