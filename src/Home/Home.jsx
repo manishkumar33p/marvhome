@@ -42,7 +42,7 @@ function Home() {
   message:"",
 });
 
-
+const [menuOpen, setMenuOpen] = useState(false);
 const [selectedImage, setSelectedImage] = useState(null);
 const [bhk, setBhk] = useState("");
 const [estimate, setEstimate] = useState(null);
@@ -402,6 +402,12 @@ return (
     className="navbar-logo"
   />
 </div>
+<div
+  className="menu-toggle"
+  onClick={() => setMenuOpen(!menuOpen)}
+>
+  ☰
+</div>
 {/* 
         <ul className="nav-links">
           <li>Home</li>
@@ -412,7 +418,7 @@ return (
           <li>Contact</li>
         </ul> */}
 
-        <ul className="nav-links">
+       <ul className={menuOpen ? "nav-links active" : "nav-links"}>
  <li onClick={() =>
   document.getElementById("home")
     .scrollIntoView({ behavior: "smooth" })
