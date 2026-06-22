@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
-
+import logo123 from "../logo123.png";
 import "swiper/css";
 import "swiper/css/navigation";
 import "./Home.css";
@@ -395,7 +395,13 @@ return (
     <>
       {/* NAVBAR */}
       <nav className="navbar">
-        <div className="logo">Marv Home</div>
+       <div className="logo">
+  <img
+    src={logo123}
+    alt="Marv Home"
+    className="navbar-logo"
+  />
+</div>
 {/* 
         <ul className="nav-links">
           <li>Home</li>

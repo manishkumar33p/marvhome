@@ -1927,3 +1927,15 @@ body{
 .remove-btn:hover {
   opacity: 0.9;
 }
+
+
+
+.navbar-logo{
+  height: 55px;
+  width: auto;
+  object-fit: contain;
+}
+.navbar-logo{
+margin-top: 22px;
+  height: 95px;
+}
