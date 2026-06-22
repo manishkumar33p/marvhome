@@ -43,7 +43,7 @@ function Home() {
 });
 
 
-const [_, setSelectedImage] = useState(null);
+const [selectedImage, setSelectedImage] = useState(null);
 const [bhk, setBhk] = useState("");
 const [estimate, setEstimate] = useState(null);
 
