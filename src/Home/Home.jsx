@@ -16,10 +16,10 @@ import {
 import kitchenHero from "../kitchenHero.avif";
 import kitchen1 from "../kitchen1.avif";
 import bedroom1 from "../bedroom1.jfif";
-import living1 from "../living1.jfif";
+import living1 from "../living1.jpg";
 import wardrobe1 from "../wardrobe1.avif";
-import ceiling1 from "../ceiling1.jfif";
-import tvunit1 from "../tvunit1.jfif";
+import ceiling1 from "../ceiling1.jpeg";
+import tvunit1 from "../tvunit1.jpg";
 import consultant from "../consultant.jfif";
 import emailjs from "@emailjs/browser";
 
@@ -580,7 +580,7 @@ return (
 
           <div className="service-card">
             <img
-              src="https://images.unsplash.com/photo-1484154218962-a197022b5858"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBNJzxcV93MZfTzeKuoOW2QTVaSa-X9pBb6BScVqCp5Q&s=10"
               alt=""
             />
             <h3>Living Room</h3>
@@ -588,7 +588,7 @@ return (
 
           <div className="service-card">
             <img
-              src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZRVxnklZrEbUYwOmDNaYnAG--DJTtu0IvORyMiJaWjA&s=10"
               alt=""
             />
             <h3>Wardrobe</h3>
@@ -1446,9 +1446,9 @@ return (
     </p>
 
     <div className="contact-info">
-      <p>📞 +91 9876543210</p>
-      <p>📧 info@marvhome.com</p>
-      <p>📍 Noida, Uttar Pradesh</p>
+      <p>📞 +91 9667712837</p>
+      <p>📧 marvhome12@gmail.com</p>
+      <p>📍 122 A Gandhinagar,Ghaziabad , Uttar Pradesh</p>
       <p>🕒 Mon - Sat : 9:00 AM - 7:00 PM</p>
     </div>
   </div>
@@ -1538,6 +1538,9 @@ return (
 
     </div>
 
+
+
+
     <div className="footer-box">
       <h3>Quick Links</h3>
 
@@ -1565,15 +1568,15 @@ return (
     <div className="footer-box">
       <h3>Contact Us</h3>
 
-      <p>📞 +91 9876543210</p>
-      <p>✉ info@marvhome.com</p>
-      <p>📍 Noida, Uttar Pradesh</p>
+      <p>📞 +91 9667712837</p>
+      <p>✉ marvhome12@gmail.com.com</p>
+      <p>📍 122 A Gandhinagar,Ghaziabad , Uttar Pradesh</p>
     </div>
 
   </div>
 
   <div className="footer-bottom">
-    © 2026 Marv Home. All Rights Reserved.
+    © 2026 Klik Digi Setu. All Rights Reserved.
   </div>
 
 </footer>

@@ -1995,3 +1995,67 @@ margin-top: 22px;
     text-align:center;
   }
 }
+
+
+.chat-section{
+    padding:80px 8%;
+    background:#f8f8f8;
+}
+
+.chat-container{
+    display:flex;
+    gap:50px;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+
+.chat-left{
+    flex:1;
+}
+
+.chat-left h2{
+    font-size:38px;
+    margin-bottom:15px;
+}
+
+.chat-left p{
+    color:#555;
+    line-height:28px;
+}
+
+.chat-right{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.chat-right input,
+.chat-right textarea{
+    width:100%;
+    padding:15px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    font-size:16px;
+}
+
+.chat-right textarea{
+    resize:none;
+}
+
+.chat-right button{
+    padding:15px;
+    background:#d4af37;
+    color:white;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:18px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.chat-right button:hover{
+    background:#b89025;
+}
